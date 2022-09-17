@@ -7,16 +7,44 @@
     <title>YouTube.com Clone</title>
     <style>
       .thumbnail {
-        width: 323.5px;
+        width: 300px;
         display: block;
       }
       .search-bar {
         display: block;
       }
+
+      .video-title {
+        margin-top: 0px;
+      }
       .video-stats {
 
       }
       .video-author {
+      }
+
+      .video-preview {
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+      }
+
+
+      .channel-picture {
+        display: inline-block;
+        width: 50px;
+        vertical-align: top;
+      }
+
+      .video-info {
+        display: inline-block;
+        width: 200px;
+      }
+
+      .profile-pic {
+        width: 100%;
+        border-radius: 50%;
       }
 
       
@@ -27,18 +55,42 @@
     <input class="search-bar" type="text" placeholder="Search" >
     
     <div class="video-preview">
-      <img class="thumbnail" src="images/thumbnail-1.webp" alt="thumbnail" />
+      <div>
+        <img class="thumbnail" src="images/thumbnail-1.webp" alt="thumbnail" />
+      </div>
+      <div>
+        <div class="channel-picture">
+          <img class="profile-pic" src="channel-pictures/channel-1.jpeg" alt="channel">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
+    
+          <p class="video-author">
+            Marques Brownlee
+          </p>
+    
+          <p class="video-stats">
+            3.4M views &#183; 6 months ago
+          </p>
+        </div>
+      </div> 
+    </div>
+
+    <div class="video-preview">
+      <img class="thumbnail" src="images/thumbnail-2.webp" alt="thumbnail" />
 
       <p class="video-title">
-        Talking Tech and AI with Google CEO Sundar Pichai!
+        Try Not To Laugh Challenge #9
       </p>
 
       <p class="video-author">
-        Marques Brownlee
+        Markiplier
       </p>
 
       <p class="video-stats">
-        3.4M views &#183; 6 months ago
+        19M views &#183; 4 years ago
       </p>
     </div>
   </body>
