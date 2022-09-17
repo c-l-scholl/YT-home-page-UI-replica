@@ -1,0 +1,47 @@
+p {
+    font-family: Roboto;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .video-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 35px;
+    margin-bottom: 4px;
+  }
+  .view-count-text {
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 15px;
+  }
+  .creator-name {
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 15px;
+  }
+  .description-text {
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 50px;
+    line-height: 22px;
+  }
+  .apple-text {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .shop-now-text {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .shop-now-text:hover {
+    text-decoration: underline;
+  }
