@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox exercise 12f</title>
+    <style>
+      .main {
+        background-color: darkorchid;
+        height: 50px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+      .home-text {
+        color: white;
+        margin-left: 20px;
+        width: 40px;
+      }
+
+      .search-bar-section {
+        margin-right: 30px;
+        margin-left: 30px;
+        max-width: 1000px;
+      }
+
+      .search-bar {
+        border: none;
+        height: 30px;
+        border-radius: 15px;
+        padding-left: 15px;
+      } 
+
+      .download-button {
+        margin-right: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-color: white;
+        color: white;
+        background-color: darkorchid;
+        border-style: solid;
+        border-radius: 3px;
+      }
+
+      .download-button-section {
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="home-text">Home</div>
+      <div class="search-bar-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+      </div>
+      <div class="download-button-section">
+        <button class="download-button">Download</button>
+      </div>
+    </div>
+  </body>
+</html>
