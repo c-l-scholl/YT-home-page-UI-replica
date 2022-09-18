@@ -8,7 +8,7 @@
   .video-title {
     margin-top: 0px;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 15px;
     margin-bottom: 12px;
   }
@@ -46,6 +46,7 @@
   .thumbnail-row {
     width: 100%;
     margin-bottom: 12px;
+    position: relative;
   }
 
   .video-grid {
@@ -53,4 +54,17 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 15px;
     row-gap: 40px;
+  }
+
+  .video-time {
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 2px 4px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    border-radius: 2px;
   }
