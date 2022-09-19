@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube.com Clone</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="menu">
+        <img class="youtube-logo" src="icons/youtube-logo.svg" alt="YouTube">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" alt="">
+          <span class="tooltip">Search</span>
+        </button> 
+        <!-- How to create a tooltip that shows on hover: Put position: absolute inside position: relative-->
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
+          <span class="tooltip">Search with your voice</span>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" alt="">
+          <span class="tooltip">Create</span>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="">
+          <span class="tooltip">YouTube apps</span>
+        </div>
+        <div class="notifications-icon-container">
+          <div class="notifications-count">3</div>
+          <img class="notifications-icon" src="icons/notifications.svg" alt="">
+          <span class="tooltip">Notifications</span>
+        </div>
+        <img class="current-user-pic" src="channel-pictures/profilepic(2).png" alt="current user">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="sidebar-buttons/home.svg" alt="">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-buttons/explore.svg" alt="">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-buttons/subscriptions.svg" alt="">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-buttons/originals.svg" alt="">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-buttons/youtube-music.svg" alt="">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-buttons/library.svg" alt="">
+        <div>library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY&ab_channel=MarquesBrownlee">
+              <img class="thumbnail" src="images/thumbnail-1.webp" alt="thumbnail" />
+            </a>
+            
+            <div class="video-time">
+              14:20
+            </div>
+          </div>
+          <div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <a href="https://www.youtube.com/c/mkbhd">
+                  <img class="profile-pic" src="channel-pictures/channel-1.jpeg" alt="channel">
+                </a>
+              </div>
+              <div class="video-info">
+                  <p class="video-title">
+                    <a class="video-link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY&ab_channel=MarquesBrownlee">Talking Tech and AI with Google CEO Sundar Pichai!</a>
+                  </p>
+                <p class="video-author">
+                  <a class="channel-link" href="https://www.youtube.com/c/mkbhd">Marques Brownlee</a> 
+                </p>
+                <p class="video-stats">
+                  3.4M views &#183; 6 months ago
+                </p>
+              </div>
+            </div>
+          </div> 
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk&ab_channel=Markiplier">
+              <img class="thumbnail" src="images/thumbnail-2.webp" alt="thumbnail" />
+            </a>
+            <div class="video-time">
+              8:22
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/c/markiplier">
+                <img class="profile-pic" src="channel-pictures/channel-2.jpeg" alt="channel">
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=mP0RAo9SKZk&ab_channel=Markiplier">
+                  Try Not To Laugh Challenge #9
+                </a>
+              </p>
+              <p class="video-author">
+                <a class="channel-link" href="https://www.youtube.com/c/markiplier">
+                  Markiplier
+                </a>
+              </p>
+        
+              <p class="video-stats">
+                19M views &#183; 4 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w&ab_channel=SSSniperWolf">
+              <img class="thumbnail" src="images/thumbnail-3.webp" alt="thumbnail" />
+            </a>
+            <div class="video-time">
+              9:13
+            </div>
+          </div>
+          <div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <a href="https://www.youtube.com/user/SSSniperWolf">
+                  <img class="profile-pic" src="channel-pictures/channel-3.jpeg" alt="channel">
+                </a>
+              </div>
+            
+              <div class="video-info">
+                <p class="video-title">
+                  <a class="video-link" href="https://www.youtube.com/watch?v=FgjPQQeTh1w&ab_channel=SSSniperWolf">
+                    Crazy Tik Toks Taken Moments Before DISASTER
+                  </a>
+                </p>
+                <p class="video-author">
+                  <a class="channel-link" href="https://www.youtube.com/user/SSSniperWolf">
+                    SSSniperWolf
+                  </a>
+                </p>
+                <p class="video-stats">
+                  12M views &#183; ! year ago
+                </p>
+              </div>
+            </div>
+          </div> 
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=094y1Z2wpJg&ab_channel=Veritasium">
+              <img class="thumbnail" src="images/thumbnail-4.webp" alt="thumbnail" />
+            </a>
+            <div class="video-time">
+              22:09
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/c/veritasium">
+                <img class="profile-pic" src="channel-pictures/channel-4.jpeg" alt="channel">
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=094y1Z2wpJg&ab_channel=Veritasium">
+                  The Simplest Math Problem No One Can Solve - Collatz Conjecture
+                </a>
+              </p>
+              <p class="video-author">
+                <a class="channel-link" href="https://www.youtube.com/c/veritasium">
+                  Veritasium
+                </a>
+              </p>
+              <p class="video-stats">
+                18M views &#183; 4 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=86CQq3pKSUw&ab_channel=CSDojo">
+              <img class="thumbnail" src="images/thumbnail-5.webp" alt="thumbnail" />
+            </a>
+            <div class="video-time">
+              11:17
+            </div>
+          </div>
+          <div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <a href="https://www.youtube.com/c/CSDojo">
+                  <img class="profile-pic" src="channel-pictures/channel-5.jpeg" alt="channel">
+                </a>
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  <a class="video-link" href="https://www.youtube.com/watch?v=86CQq3pKSUw&ab_channel=CSDojo">
+                    Kadane's Algorithm to Maximum Sum Subarray Problem
+                  </a>
+                </p>
+                <p class="video-author">
+                  <a class="channel-link" href="https://www.youtube.com/c/CSDojo">
+                    CS Dojo
+                  </a>
+                </p>
+                <p class="video-stats">
+                  519K views &#183; 5 years ago
+                </p>
+              </div>
+            </div>
+          </div> 
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg&ab_channel=MrBeast">
+              <img class="thumbnail" src="images/thumbnail-6.webp" alt="thumbnail" />
+            </a>
+            <div class="video-time">
+              19:59
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA">
+                <img class="profile-pic" src="channel-pictures/channel-6.jpeg" alt="channel">
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=yXWw0_UfSFg&ab_channel=MrBeast">
+                  Anything You Can Fit In The Circle I&#39;ll Pay For
+                </a>
+              </p>
+              <p class="video-author">
+                <a class="channel-link" href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA">
+                  Mr. Beast
+                </a>
+              </p>
+        
+              <p class="video-stats">
+                141M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=bYIb-YaaCMY&ab_channel=TrashTaste">
+              <img class="thumbnail" src="images/trash-taste-7.webp" alt="thumbnail"/>
+            </a>
+            <div class="video-time">
+              2:05:31
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/c/TrashTaste">
+                <img class="profile-pic" src="channel-pictures/trash-taste-channel.jpg" alt="channel">
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=bYIb-YaaCMY&ab_channel=TrashTaste">
+                  Cycling is HARD &#124; Trash Taste #117
+                </a>
+              </p>
+              <p class="video-author">
+                <a class="channel-link" href="https://www.youtube.com/c/TrashTaste">
+                  Trash Taste
+                </a>
+              </p>
+        
+              <p class="video-stats">
+                492K views &#183; 2 days ago
+              </p>
+            </div>
+          </div>
+        </div> 
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=mC248Zw0scY&ab_channel=SecretBase">
+              <img class="thumbnail" src="images/secret-base-8.webp" alt="thumbnail"/>
+            </a>
+            <div class="video-time">
+              12:25
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/c/SecretBaseSBN">
+                <img class="profile-pic" src="channel-pictures/secret-base-channel.jpg" alt="channel">
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=mC248Zw0scY&ab_channel=SecretBase">
+                  Jalen Ramsey and Golden Tate&#39;s beef saw on-field punches and plenty of family drama
+                </a>
+              </p>
+              <p class="video-author">
+                <a class="channel-link" href="https://www.youtube.com/c/SecretBaseSBN">
+                  Secret Base
+                </a>
+              </p>
+        
+              <p class="video-stats">
+                132K views &#183; 1 day ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=8_eoAkvD3LA&ab_channel=LosAngelesDodgers">
+              <img class="thumbnail" src="images/lad-9.webp" alt="thumbnail"/>
+            </a>
+            <div class="video-time">
+              23:04
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/c/Dodgers">
+                <img class="profile-pic" src="channel-pictures/lad-channel.jpg" alt="channel">
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=8_eoAkvD3LA&ab_channel=LosAngelesDodgers">
+                  Joey Gallo&#39;s New Start - Backstage Dodgers Season 9 (2022)
+                </a>
+              </p>
+              <p class="video-author">
+                <a class="channel-link" href="https://www.youtube.com/c/Dodgers">
+                  Los Angeles Dodgers
+                </a>
+              </p>
+        
+              <p class="video-stats">
+                75K views &#183; 3 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=Y4dD6MbmHDs&t=14s&ab_channel=VALORANTChampionsTour">
+              <img class="thumbnail" src="images/vct-10.webp" alt="thumbnail"/>
+            </a>
+            <div class="video-time">
+              3:01
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/c/ValorantEsports">
+                <img class="profile-pic" src="channel-pictures/vct-channel.jpg" alt="channel">
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=Y4dD6MbmHDs&t=14s&ab_channel=VALORANTChampionsTour">
+                  LOUD Punches Their Ticket To The Grand Finals &#124; VALORANT Champions Day 14 Recap
+                </a>
+              </p>
+              <p class="video-author">
+                <a class="channel-link" href="https://www.youtube.com/c/ValorantEsports">
+                  VALORANT Champions Tour
+                </a>
+              </p>
+        
+              <p class="video-stats">
+                35K views &#183; 2 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=XAXIGSCb3kE&ab_channel=THEFIRSTTAKE">
+              <img class="thumbnail" src="images/first-take-11.webp" alt="thumbnail"/>
+            </a>
+            <div class="video-time">
+              7:25
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/channel/UC9zY_E8mcAo_Oq772LEZq8Q">
+                <img class="profile-pic" src="channel-pictures/first-take-channel.jpg" alt="channel">
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=XAXIGSCb3kE&ab_channel=THEFIRSTTAKE">
+                  ENDRECHERI &#8211; Machi &#47; THE FIRST TAKE
+                </a>
+              </p>
+              <p class="video-author">
+                <a class="channel-link" href="https://www.youtube.com/channel/UC9zY_E8mcAo_Oq772LEZq8Q">
+                  THE FIRST TAKE
+                </a>
+              </p>
+        
+              <p class="video-stats">
+                3.1M views &#183; 2 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=Vm6Yu2N-ePI&ab_channel=EroldStory">
+              <img class="thumbnail" src="images/erold-story-12.webp" alt="thumbnail"/>
+            </a>
+            <div class="video-time">
+              8:16
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/c/EroldStory">
+                <img class="profile-pic" src="channel-pictures/erold-story-channel.jpg" alt="channel">
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=Vm6Yu2N-ePI&ab_channel=EroldStory">
+                  Weird Kids I met in Art School
+                </a>
+              </p>
+              <p class="video-author">
+                <a class="channel-link" href="https://www.youtube.com/c/EroldStory">
+                  EroldStory
+                </a>
+              </p>
+        
+              <p class="video-stats">
+                12M views &#183; 5 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+           
+    </main>
+  </body>
+</html>
