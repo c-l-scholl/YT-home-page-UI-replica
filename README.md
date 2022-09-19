@@ -5,4 +5,6 @@ The website contains most of the features from the YouTube homepage, including v
 a header with the search bar and other relevant buttons, and a sidebar with relevant buttons. All the videos have interactive links built into them and webpage 
 has an interactive design. 
 
+All code has been verified.
+
 This repository also contains some other miscellaneous files that I used to practice HTML/CSS techniques. 
